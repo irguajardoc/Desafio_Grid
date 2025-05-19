@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'MiFuente';
+  src: url('../Font/Mokoto\ Glitch.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +11,8 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family:'MiFuente', sans-serif;
+  font-size: 11px;
   background-color: #f9f9f9;
 }
 
@@ -88,9 +95,9 @@ body {
 .products {
   grid-area: products;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   gap: 1rem;
-  padding: 1rem;
+
 }
 
 /* Product cards */
@@ -119,6 +126,10 @@ body {
   background-color: #ffbc00;
 }
 
+.product-card:hover p {
+  color: #6200ea;
+}
+
 .product-card img {
   width: 100%;
   border-radius: 4px;
@@ -130,7 +141,7 @@ body {
 
 .product-card p {
   font-weight: bold;
-  color: #6200ea;
+  color: #ffbc00;
 }
 
 /* Footer */
