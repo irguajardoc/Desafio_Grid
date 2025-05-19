@@ -53,13 +53,8 @@ body {
 }
 
 .menu a:hover {
-  color: #ffbc00; /* Amarillo al pasar el mouse */
+  color: #ffbc00;
 }
-
-
-
-
-
 /* Sidebar */
 .sidebar {
   grid-area: sidebar;
@@ -78,9 +73,6 @@ body {
   color: #ffbc00;           
   text-decoration: underline;
 }
-
-
-
 .sidebar h3 {
   margin-bottom: 0.5rem;
 }
